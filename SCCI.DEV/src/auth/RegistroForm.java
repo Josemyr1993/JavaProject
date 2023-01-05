@@ -108,16 +108,21 @@ public class RegistroForm extends JFrame {
 		textField_2.setColumns(10);
 		
 		JLabel lblNewLabel_2 = new JLabel("Categoria:");
+		lblNewLabel_2.setForeground(new Color(255, 255, 255));
 		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblNewLabel_2.setBounds(33, 264, 65, 18);
 		contentPane.add(lblNewLabel_2);
 		
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("Admin");
+		rdbtnNewRadioButton.setForeground(new Color(255, 255, 255));
+		rdbtnNewRadioButton.setBackground(new Color(102, 153, 204));
 		buttonGroup.add(rdbtnNewRadioButton);
 		rdbtnNewRadioButton.setBounds(33, 289, 109, 23);
 		contentPane.add(rdbtnNewRadioButton);
 		
 		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("EndUser");
+		rdbtnNewRadioButton_1.setForeground(new Color(255, 255, 255));
+		rdbtnNewRadioButton_1.setBackground(new Color(102, 153, 204));
 		buttonGroup.add(rdbtnNewRadioButton_1);
 		rdbtnNewRadioButton_1.setBounds(33, 311, 109, 23);
 		contentPane.add(rdbtnNewRadioButton_1);
@@ -133,10 +138,16 @@ public class RegistroForm extends JFrame {
 		contentPane.add(lblNewLabel_5);
 		
 		JButton btnNewButton = new JButton("Validar");
+		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnNewButton.setBackground(new Color(255, 255, 255));
+		btnNewButton.setForeground(new Color(0, 0, 0));
 		btnNewButton.setBounds(256, 439, 89, 23);
 		contentPane.add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("Reset");
+		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnNewButton_1.setBackground(new Color(255, 255, 255));
+		btnNewButton_1.setForeground(new Color(0, 0, 0));
 		btnNewButton_1.setBounds(385, 439, 89, 23);
 		contentPane.add(btnNewButton_1);
 	}
