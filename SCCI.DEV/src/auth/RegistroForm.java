@@ -8,6 +8,8 @@ import javax.swing.border.EmptyBorder;
 import java.awt.Toolkit;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
+
 import java.awt.Font;
 import javax.swing.JTextField;
 import javax.swing.JTextArea;
@@ -21,15 +23,22 @@ import java.awt.Canvas;
 import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.SystemColor;
+import javax.swing.JTree;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.awt.event.ActionEvent;
+import javax.swing.border.LineBorder;
 
 public class RegistroForm extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
+	private JTextField txtNome;
+	private JTextField txtUtilizador;
+	private JTextField txtEmail;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
-	private JPasswordField passwordField;
+	private JPasswordField txtPassword;
 
 	/**
 	 * Launch the application.
@@ -59,7 +68,7 @@ public class RegistroForm extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setForeground(new Color(0, 0, 0));
 		contentPane.setBackground(new Color(102, 153, 204));
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBorder(null);
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -92,20 +101,23 @@ public class RegistroForm extends JFrame {
 		list.setBounds(180, 56, 1, 1);
 		contentPane.add(list);
 		
-		textField = new JTextField();
-		textField.setBounds(33, 147, 157, 25);
-		contentPane.add(textField);
-		textField.setColumns(10);
+		txtNome = new JTextField();
+		txtNome.setBorder(null);
+		txtNome.setBounds(33, 147, 157, 25);
+		contentPane.add(txtNome);
+		txtNome.setColumns(10);
 		
-		textField_1 = new JTextField();
-		textField_1.setBounds(33, 217, 157, 25);
-		contentPane.add(textField_1);
-		textField_1.setColumns(10);
+		txtUtilizador = new JTextField();
+		txtUtilizador.setBorder(null);
+		txtUtilizador.setBounds(33, 217, 157, 25);
+		contentPane.add(txtUtilizador);
+		txtUtilizador.setColumns(10);
 		
-		textField_2 = new JTextField();
-		textField_2.setBounds(256, 147, 145, 25);
-		contentPane.add(textField_2);
-		textField_2.setColumns(10);
+		txtEmail = new JTextField();
+		txtEmail.setBorder(null);
+		txtEmail.setBounds(256, 147, 145, 25);
+		contentPane.add(txtEmail);
+		txtEmail.setColumns(10);
 		
 		JLabel lblNewLabel_2 = new JLabel("Categoria:");
 		lblNewLabel_2.setForeground(new Color(255, 255, 255));
@@ -113,23 +125,25 @@ public class RegistroForm extends JFrame {
 		lblNewLabel_2.setBounds(33, 264, 65, 18);
 		contentPane.add(lblNewLabel_2);
 		
-		JRadioButton rdbtnNewRadioButton = new JRadioButton("Admin");
-		rdbtnNewRadioButton.setForeground(new Color(255, 255, 255));
-		rdbtnNewRadioButton.setBackground(new Color(102, 153, 204));
-		buttonGroup.add(rdbtnNewRadioButton);
-		rdbtnNewRadioButton.setBounds(33, 289, 109, 23);
-		contentPane.add(rdbtnNewRadioButton);
+		final JRadioButton rbAdmin = new JRadioButton("Admin"); // Fixed by advisor
+		rbAdmin.setForeground(new Color(255, 255, 255));
+		rbAdmin.setBackground(new Color(102, 153, 204));
+		buttonGroup.add(rbAdmin);
+		rbAdmin.setBounds(33, 289, 109, 23);
+		contentPane.add(rbAdmin);
 		
-		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("EndUser");
-		rdbtnNewRadioButton_1.setForeground(new Color(255, 255, 255));
-		rdbtnNewRadioButton_1.setBackground(new Color(102, 153, 204));
-		buttonGroup.add(rdbtnNewRadioButton_1);
-		rdbtnNewRadioButton_1.setBounds(33, 311, 109, 23);
-		contentPane.add(rdbtnNewRadioButton_1);
 		
-		passwordField = new JPasswordField();
-		passwordField.setBounds(256, 218, 145, 23);
-		contentPane.add(passwordField);
+		final JRadioButton rbEndUser = new JRadioButton("EndUser");    // Fixed by advisor
+		rbEndUser.setForeground(new Color(255, 255, 255));
+		rbEndUser.setBackground(new Color(102, 153, 204));
+		buttonGroup.add(rbEndUser);
+		rbEndUser.setBounds(33, 311, 109, 23);
+		contentPane.add(rbEndUser);
+		
+		txtPassword = new JPasswordField();
+		txtPassword.setBorder(null);
+		txtPassword.setBounds(256, 218, 145, 23);
+		contentPane.add(txtPassword);
 		
 		JLabel lblNewLabel_5 = new JLabel("Registro de Utilizador");
 		lblNewLabel_5.setForeground(new Color(255, 255, 255));
@@ -137,18 +151,61 @@ public class RegistroForm extends JFrame {
 		lblNewLabel_5.setBounds(144, 23, 157, 45);
 		contentPane.add(lblNewLabel_5);
 		
-		JButton btnNewButton = new JButton("Validar");
-		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
-		btnNewButton.setBackground(new Color(255, 255, 255));
-		btnNewButton.setForeground(new Color(0, 0, 0));
-		btnNewButton.setBounds(256, 439, 89, 23);
-		contentPane.add(btnNewButton);
+		// Ações para o botão "Validar" - Na verdade irá ser o gatilho para inserir dados à nossa base de dados, dados esses que serão inseridos no formulário
+		final JButton btnValidar = new JButton("Validar");  // Fixed by  advisor
+		btnValidar.setBorder(null);
+		btnValidar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					Class.forName("com.mysql.cj.jdbc.Driver");
+					Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/scci_dev","root","#Programacao#");
+					String query="INSERT INTO utilizadores(nome,email,utilizador,password,categoria) VALUES (?,?,?,?,?)";
+					PreparedStatement ps=con.prepareStatement(query);
+					ps.setString(1, txtNome.getText());
+					ps.setString(2, txtEmail.getText());
+					ps.setString(3, txtUtilizador.getText());
+					ps.setString(4, txtPassword.getText());
+					if(rbAdmin.isSelected())
+						ps.setString(5, rbAdmin.getText());
+					else
+						ps.setString(5, rbEndUser.getText());
+					
+					// Mostrar Informação de sucesso quando validado no botão
+					int i=ps.executeUpdate();
+					JOptionPane.showMessageDialog(btnValidar, i+" Informação inserida com sucesso!");
+					
+					// Para Fechar a conexão e ps
+					ps.close();
+					con.close();
+					
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		btnValidar.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnValidar.setBackground(new Color(212, 212, 212));
+		btnValidar.setForeground(new Color(0, 0, 0));
+		btnValidar.setBounds(256, 439, 89, 23);
+		contentPane.add(btnValidar);
 		
-		JButton btnNewButton_1 = new JButton("Reset");
-		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 12));
-		btnNewButton_1.setBackground(new Color(255, 255, 255));
-		btnNewButton_1.setForeground(new Color(0, 0, 0));
-		btnNewButton_1.setBounds(385, 439, 89, 23);
-		contentPane.add(btnNewButton_1);
+		// Ações para o botão "Reset" - para quando for inserido algum dado inesperado no formulário
+		JButton btnReset = new JButton("Reset");
+		btnReset.setBorder(null);
+		btnReset.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txtNome.setText("");
+				txtEmail.setText("");
+				txtUtilizador.setText("");
+				txtPassword.setText("");
+				buttonGroup.clearSelection();
+			}
+		});
+		btnReset.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnReset.setBackground(new Color(214, 214, 214));
+		btnReset.setForeground(new Color(0, 0, 0));
+		btnReset.setBounds(406, 439, 89, 23);
+		contentPane.add(btnReset);
 	}
 }
