@@ -8,15 +8,15 @@ public class UtilizadorDTO {
 	private String Password;
 	private String Categoria;
 	
+	// Criamos automaticamente métodos get e set para cada um dos atributos para a classe Utilizador
+    // Pelo processo de Emcapsulamento
+	// Usamos o Set para determinar os valores inseridos pelo usuário e o get para recuperar os mesmos dados para visualização
 	public String getCategoria() {
 		return Categoria;
 	}
 	public void setCategoria(String categoria) {
 		Categoria = categoria;
 	}
-	// Criamos automaticamente métodos get e set para cada um dos atributos para a classe Utilizador
-    // Pelo processo de Emcapsulamento
-	// Usamos o Set para determinar os valores inseridos pelo usuário e o get para recuperar os mesmos dados para visualização
 	public int getId_usuario() {
 		return id_usuario;
 	}

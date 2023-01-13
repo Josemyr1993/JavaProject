@@ -12,12 +12,11 @@ import DTO.UtilizadorDTO;
 public class UtilizadorDB {
 	
 	// Antes de iniciar o método, declaramos uma variável global
+	// Att que esta é a mesma variável usada no processo de criação de conexão à DB
 	Connection con;
 	
 	public ResultSet autenticacaoUtilizador(UtilizadorDTO objutilizadorDTO) {
 		con = new ConexaoDB().conectaBD();
-		
-		
 		
 		try {
 					

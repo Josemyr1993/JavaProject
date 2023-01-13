@@ -40,6 +40,7 @@ public class RegistroForm extends JFrame {
 	private JTextField txtEmail;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 	private JPasswordField txtPassword;
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -68,32 +69,32 @@ public class RegistroForm extends JFrame {
 		setBounds(100, 100, 547, 680);
 		contentPane = new JPanel();
 		contentPane.setForeground(new Color(0, 0, 0));
-		contentPane.setBackground(new Color(102, 153, 204));
+		contentPane.setBackground(new Color(242, 242, 242));
 		contentPane.setBorder(null);
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Nome:");
-		lblNewLabel.setForeground(new Color(255, 255, 255));
+		lblNewLabel.setForeground(new Color(0, 0, 0));
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblNewLabel.setBounds(33, 250, 46, 14);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("Utilizador:");
-		lblNewLabel_1.setForeground(new Color(255, 255, 255));
+		lblNewLabel_1.setForeground(new Color(0, 0, 0));
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblNewLabel_1.setBounds(33, 322, 75, 14);
 		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_3 = new JLabel("Email:");
-		lblNewLabel_3.setForeground(new Color(255, 255, 255));
+		lblNewLabel_3.setForeground(new Color(0, 0, 0));
 		lblNewLabel_3.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblNewLabel_3.setBounds(256, 250, 46, 14);
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel lblNewLabel_4 = new JLabel("Password");
-		lblNewLabel_4.setForeground(new Color(255, 255, 255));
+		lblNewLabel_4.setForeground(new Color(0, 0, 0));
 		lblNewLabel_4.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblNewLabel_4.setBounds(256, 322, 65, 14);
 		contentPane.add(lblNewLabel_4);
@@ -121,22 +122,22 @@ public class RegistroForm extends JFrame {
 		txtEmail.setColumns(10);
 		
 		JLabel lblNewLabel_2 = new JLabel("Categoria:");
-		lblNewLabel_2.setForeground(new Color(255, 255, 255));
+		lblNewLabel_2.setForeground(new Color(0, 0, 0));
 		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblNewLabel_2.setBounds(33, 394, 65, 18);
 		contentPane.add(lblNewLabel_2);
 		
 		final JRadioButton rbAdmin = new JRadioButton("Admin"); // Fixed by advisor
-		rbAdmin.setForeground(new Color(255, 255, 255));
-		rbAdmin.setBackground(new Color(102, 153, 204));
+		rbAdmin.setForeground(new Color(0, 0, 0));
+		rbAdmin.setBackground(new Color(212, 212, 212));
 		buttonGroup.add(rbAdmin);
 		rbAdmin.setBounds(33, 419, 109, 23);
 		contentPane.add(rbAdmin);
 		
 		
 		final JRadioButton rbEndUser = new JRadioButton("EndUser");    // Fixed by advisor
-		rbEndUser.setForeground(new Color(255, 255, 255));
-		rbEndUser.setBackground(new Color(102, 153, 204));
+		rbEndUser.setForeground(new Color(0, 0, 0));
+		rbEndUser.setBackground(new Color(212, 212, 212));
 		buttonGroup.add(rbEndUser);
 		rbEndUser.setBounds(33, 445, 109, 23);
 		contentPane.add(rbEndUser);
@@ -146,10 +147,10 @@ public class RegistroForm extends JFrame {
 		txtPassword.setBounds(256, 348, 145, 23);
 		contentPane.add(txtPassword);
 		
-		JLabel lblNewLabel_5 = new JLabel("Registro de Utilizadores ISAF");
-		lblNewLabel_5.setForeground(new Color(255, 255, 255));
+		JLabel lblNewLabel_5 = new JLabel("Registro de Utilizadores ISAF - Área do Gestor");
+		lblNewLabel_5.setForeground(new Color(0, 0, 0));
 		lblNewLabel_5.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblNewLabel_5.setBounds(138, 149, 201, 42);
+		lblNewLabel_5.setBounds(10, 12, 332, 42);
 		contentPane.add(lblNewLabel_5);
 		
 		// Ações para o botão "Validar" - Na verdade irá ser o gatilho para inserir dados à nossa base de dados, dados esses que serão inseridos no formulário
@@ -211,7 +212,13 @@ public class RegistroForm extends JFrame {
 		
 		JLabel lblNewLabel_6 = new JLabel("New label");
 		lblNewLabel_6.setIcon(new ImageIcon("C:\\Users\\jsebastiao1\\Desktop\\JavaProject\\JavaProject\\Images\\footer2-0.png"));
-		lblNewLabel_6.setBounds(174, 21, 128, 147);
+		lblNewLabel_6.setBounds(403, -6, 128, 140);
 		contentPane.add(lblNewLabel_6);
+		
+		textField = new JTextField();
+		textField.setEditable(false);
+		textField.setBounds(0, 0, 531, 71);
+		contentPane.add(textField);
+		textField.setColumns(10);
 	}
 }

@@ -55,6 +55,7 @@ public class frmLoginView extends JFrame {
 	 * Create the frame.
 	 */
 	public frmLoginView() {
+		setTitle("Formulário de Login Admin e Gestor");
 		getContentPane().setBackground(new Color(215, 215, 215));
 		setBounds(100, 100, 589, 635);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -128,6 +129,7 @@ public class frmLoginView extends JFrame {
 					// Usamos o Construtor "new" para criação do novo objeto "objutilizadordto"
 					UtilizadorDTO objutilizadordto = new UtilizadorDTO();
 					
+					
 					objutilizadordto.setNome(Nome);
 					objutilizadordto.setPassword(Password);
 					
@@ -138,8 +140,8 @@ public class frmLoginView extends JFrame {
 					if (rsutilizadordb.next()) {
 						// Chamar tela que eu quero abrir --- Aqui também pretendemos adicionar role para que se for utilizador admin ou enduser
 						
-						frmViewPrincipal objfrmviewprincipal = new frmViewPrincipal();
-						objfrmviewprincipal.setVisible(true);
+						frmViewEventos objfrmvieweventos = new frmViewEventos();
+						objfrmvieweventos.setVisible(true);
 						dispose();
 					} else {
 						// Enviar mensagem dizendo que está incorreto
