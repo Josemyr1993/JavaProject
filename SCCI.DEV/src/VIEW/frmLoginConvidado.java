@@ -89,7 +89,7 @@ public class frmLoginConvidado extends JFrame {
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 13));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-try {
+				try {
 					// Variáveis importadas da classe ConvidadoDTO
 					String Nome; 
 					String Password;
@@ -147,7 +147,7 @@ try {
 				}
 			}
 		});
-		btnNewButton.setBounds(290, 357, 98, 23);
+		btnNewButton.setBounds(210, 357, 178, 23);
 		contentPane.add(btnNewButton);
 		
 		lblNewLabel_2 = new JLabel("New label");
@@ -175,15 +175,15 @@ try {
 		contentPane.add(separator_2);
 		
 		separator_3 = new JSeparator();
-		separator_3.setBounds(290, 411, 165, 2);
+		separator_3.setBounds(338, 411, 117, 2);
 		contentPane.add(separator_3);
 		
 		lblNewLabel_4 = new JLabel("OU");
 		lblNewLabel_4.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblNewLabel_4.setBounds(265, 398, 30, 28);
+		lblNewLabel_4.setBounds(290, 399, 30, 28);
 		contentPane.add(lblNewLabel_4);
 		
-		btnNewButton_1 = new JButton("Cadastrar Efetuar Cadastro");
+		btnNewButton_1 = new JButton("Efetuar Cadastro");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frmRegistoConvidado objregistoconv = new frmRegistoConvidado();
@@ -192,7 +192,7 @@ try {
 			}
 		});
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnNewButton_1.setBounds(290, 454, 98, 23);
+		btnNewButton_1.setBounds(210, 449, 178, 23);
 		contentPane.add(btnNewButton_1);
 	}
 }

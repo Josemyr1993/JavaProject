@@ -20,7 +20,7 @@ public class UtilizadorDB {
 		
 		try {
 					
-			String sql = "select*from utilizadores where utilizador=? and password=?";
+			String sql = "select utilizador,password,categoria from utilizadores where utilizador=? and password=?";
 			
 			PreparedStatement ps = con.prepareStatement(sql);
 			

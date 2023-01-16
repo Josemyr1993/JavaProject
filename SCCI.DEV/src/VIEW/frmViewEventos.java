@@ -29,6 +29,12 @@ import java.sql.Statement;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import javax.swing.ImageIcon;
+import javax.swing.JList;
+import javax.swing.JComboBox;
+import javax.swing.JSeparator;
+import java.awt.Color;
+import javax.swing.border.LineBorder;
 
 public class frmViewEventos extends JFrame {
 
@@ -88,86 +94,90 @@ public void showTableData() {
 } */
 
 	public frmViewEventos() {
-		setTitle("Gertor View");
+		setTitle("Gestor View");
 		//showTableData();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1173, 529);
+		setBounds(100, 100, 1260, 643);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		textField = new JTextField();
-		textField.setEditable(false);
-		textField.setBounds(0, 0, 1157, 57);
-		contentPane.add(textField);
-		textField.setColumns(10);
+		JSeparator separator_1 = new JSeparator();
+		separator_1.setBorder(new LineBorder(new Color(128, 128, 128)));
+		separator_1.setBounds(107, 55, 1, 549);
+		contentPane.add(separator_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("New label");
+		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\jsebastiao1\\Desktop\\JavaProject\\JavaProject\\Images\\footer2-0.png"));
+		lblNewLabel_2.setBounds(1112, 0, 132, 140);
+		contentPane.add(lblNewLabel_2);
 		
 		JLabel lblNewLabel = new JLabel("Tema do Evento");
-		lblNewLabel.setBounds(42, 150, 88, 14);
+		lblNewLabel.setBounds(129, 197, 88, 14);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblLocalDoEvento = new JLabel("Local do Evento");
-		lblLocalDoEvento.setBounds(42, 183, 88, 14);
+		lblLocalDoEvento.setBounds(129, 230, 88, 14);
 		contentPane.add(lblLocalDoEvento);
 		
 		JLabel lblNomePalest = new JLabel("Nome Palest.");
-		lblNomePalest.setBounds(42, 218, 88, 14);
+		lblNomePalest.setBounds(129, 265, 88, 14);
 		contentPane.add(lblNomePalest);
 		
 		JLabel lblParticipantes = new JLabel("Participantes");
-		lblParticipantes.setBounds(42, 255, 88, 14);
+		lblParticipantes.setBounds(129, 302, 88, 14);
 		contentPane.add(lblParticipantes);
 		
 		JLabel lblTipoEvento = new JLabel("Tipo Evento");
-		lblTipoEvento.setBounds(42, 293, 88, 14);
+		lblTipoEvento.setBounds(129, 340, 88, 14);
 		contentPane.add(lblTipoEvento);
 		
 		JLabel lblDataEvento = new JLabel("Data Evento");
-		lblDataEvento.setBounds(42, 327, 88, 14);
+		lblDataEvento.setBounds(129, 374, 88, 14);
 		contentPane.add(lblDataEvento);
 		
 		JLabel lblDescrio = new JLabel("Descrição");
-		lblDescrio.setBounds(42, 360, 88, 14);
+		lblDescrio.setBounds(129, 407, 88, 14);
 		contentPane.add(lblDescrio);
 		
 		txtTema = new JTextField();
-		txtTema.setBounds(140, 147, 222, 20);
+		txtTema.setBounds(227, 194, 222, 20);
 		contentPane.add(txtTema);
 		txtTema.setColumns(10);
 		
 		txtLocal = new JTextField();
 		txtLocal.setColumns(10);
-		txtLocal.setBounds(140, 180, 222, 20);
+		txtLocal.setBounds(227, 227, 222, 20);
 		contentPane.add(txtLocal);
 		
 		txtPalestr = new JTextField();
 		txtPalestr.setColumns(10);
-		txtPalestr.setBounds(140, 215, 222, 20);
+		txtPalestr.setBounds(227, 262, 222, 20);
 		contentPane.add(txtPalestr);
 		
 		final JSpinner txtMax = new JSpinner();
-		txtMax.setBounds(140, 252, 50, 20);
+		txtMax.setBounds(227, 299, 50, 20);
 		contentPane.add(txtMax);
 		
 		txtTipo = new JTextField();
 		txtTipo.setColumns(10);
-		txtTipo.setBounds(140, 290, 222, 20);
+		txtTipo.setBounds(227, 337, 222, 20);
 		contentPane.add(txtTipo);
 		
 		txtData = new JTextField();
 		txtData.setColumns(10);
-		txtData.setBounds(140, 324, 222, 20);
+		txtData.setBounds(227, 371, 222, 20);
 		contentPane.add(txtData);
 		
 		txtDescr = new JTextField();
 		txtDescr.setColumns(10);
-		txtDescr.setBounds(140, 357, 222, 20);
+		txtDescr.setBounds(227, 404, 222, 20);
 		contentPane.add(txtDescr);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(400, 100, 747, 321);
+		scrollPane.setBounds(487, 147, 747, 321);
 		contentPane.add(scrollPane);
 		
 		table = new JTable();
@@ -246,7 +256,7 @@ public void showTableData() {
 			}
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnNewButton.setBounds(313, 444, 89, 23);
+		btnNewButton.setBounds(487, 484, 89, 23);
 		contentPane.add(btnNewButton);
 		
 		JButton btnAtualizar = new JButton("Atualizar");
@@ -281,7 +291,7 @@ public void showTableData() {
 			}
 		});
 		btnAtualizar.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnAtualizar.setBounds(459, 444, 98, 23);
+		btnAtualizar.setBounds(606, 484, 98, 23);
 		contentPane.add(btnAtualizar);
 		
 		JButton btnApagar = new JButton("Apagar");
@@ -313,7 +323,7 @@ public void showTableData() {
 			}
 		});
 		btnApagar.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnApagar.setBounds(610, 444, 98, 23);
+		btnApagar.setBounds(725, 484, 98, 23);
 		contentPane.add(btnApagar);
 		
 		JButton btnNovo = new JButton(" Carregar Eventos");
@@ -370,21 +380,21 @@ public void showTableData() {
 			}
 		});
 		btnNovo.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnNovo.setBounds(400, 68, 157, 23);
+		btnNovo.setBounds(487, 115, 157, 23);
 		contentPane.add(btnNovo);
 		
 		JLabel lblCodEvento = new JLabel("Cod. Evento");
-		lblCodEvento.setBounds(42, 393, 88, 14);
+		lblCodEvento.setBounds(129, 440, 88, 14);
 		contentPane.add(lblCodEvento);
 		
 		txtcodEv = new JTextField();
 		txtcodEv.setColumns(10);
-		txtcodEv.setBounds(140, 388, 111, 20);
+		txtcodEv.setBounds(227, 435, 111, 20);
 		contentPane.add(txtcodEv);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setBorder(new TitledBorder(null, "Registar Evento", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-		lblNewLabel_1.setBounds(32, 100, 358, 321);
+		lblNewLabel_1.setBounds(119, 147, 358, 321);
 		contentPane.add(lblNewLabel_1);
 		
 		JButton btnNewButton_1 = new JButton("Limpar Tabela");
@@ -394,7 +404,30 @@ public void showTableData() {
 			}
 		});
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnNewButton_1.setBounds(575, 68, 157, 23);
+		btnNewButton_1.setBounds(662, 115, 157, 23);
 		contentPane.add(btnNewButton_1);
+		
+		JLabel lblNewLabel_3 = new JLabel("Área do Gestor - ISAF");
+		lblNewLabel_3.setFont(new Font("Tahoma", Font.BOLD, 14));
+		lblNewLabel_3.setBounds(28, 19, 154, 14);
+		contentPane.add(lblNewLabel_3);
+		
+		textField = new JTextField();
+		textField.setEditable(false);
+		textField.setBounds(0, 0, 1244, 57);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		JButton btnNewButton_2 = new JButton("Gerir Users");
+		btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, 11));
+		btnNewButton_2.setBounds(0, 93, 108, 23);
+		contentPane.add(btnNewButton_2);
+		
+		JSeparator separator = new JSeparator();
+		separator.setBorder(new LineBorder(new Color(0, 0, 0)));
+		separator.setBackground(new Color(0, 0, 0));
+		separator.setForeground(new Color(0, 0, 0));
+		separator.setBounds(108, 55, 0, 549);
+		contentPane.add(separator);
 	}
 }

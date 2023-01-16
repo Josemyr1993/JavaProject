@@ -139,9 +139,21 @@ public class frmLoginView extends JFrame {
 									
 					if (rsutilizadordb.next()) {
 						// Chamar tela que eu quero abrir --- Aqui também pretendemos adicionar role para que se for utilizador admin ou enduser
+						String u = rsutilizadordb.getString("utilizador");
+						String p = rsutilizadordb.getString("password");
+						String c = rsutilizadordb.getString("categoria");
 						
-						frmViewEventos objfrmvieweventos = new frmViewEventos();
-						objfrmvieweventos.setVisible(true);
+						if (Password.equals(p)) {
+							// Vamos à JFrame Palestrante ou Expectador dependendo da categoria
+							// Aqui separamos os utilizadores por roles
+							if (c.equals("Admin")) {
+								viewPainelGeralAdmin objpaineladmin= new viewPainelGeralAdmin();
+								objpaineladmin.setVisible(true);
+							} else if(c.equals("EndUser")){
+								frmViewEventos objfrmvieweventos = new frmViewEventos();
+								objfrmvieweventos.setVisible(true);
+							}
+						}
 						dispose();
 					} else {
 						// Enviar mensagem dizendo que está incorreto

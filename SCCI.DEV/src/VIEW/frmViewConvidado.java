@@ -62,7 +62,7 @@ public class frmViewConvidado extends JFrame {
 	 * Create the frame.
 	 */
 	public frmViewConvidado() {
-		setTitle("Convidado View");
+		setTitle("Palestrante View");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1135, 554);
 		contentPane = new JPanel();
