@@ -294,38 +294,6 @@ public void showTableData() {
 		btnAtualizar.setBounds(606, 484, 98, 23);
 		contentPane.add(btnAtualizar);
 		
-		JButton btnApagar = new JButton("Apagar");
-		btnApagar.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-
-				Connection con = null;
-				//con = new ConexaoDB().conectaBD();
-				ResultSet rs = null;
-				PreparedStatement pst = null;
-				//String txtMax;
-				try {
-					String sql = "DELETE FROM eventos WHERE cod_evento =?";
-					con = new ConexaoDB().conectaBD();
-					pst = con.prepareStatement(sql);
-					pst.setString(1, txtcodEv.getText());
-					/**pst.setString(2, txtLocal.getText());
-					pst.setString(3, txtPalestr.getText());
-					pst.setInt(4, txtData.getComponentCount());
-					pst.setString(5, txtTipo.getText());
-					pst.setString(6, txtData.getText());
-					pst.setString(7, txtDescr.getText());*/
-					pst.executeUpdate();
-					JOptionPane.showMessageDialog(null, "Delete procedido com Sucesso");
-					
-				} catch (Exception e2) {
-					JOptionPane.showMessageDialog(null, e2);
-				}
-			}
-		});
-		btnApagar.setFont(new Font("Tahoma", Font.BOLD, 13));
-		btnApagar.setBounds(725, 484, 98, 23);
-		contentPane.add(btnApagar);
-		
 		JButton btnNovo = new JButton(" Carregar Eventos");
 		btnNovo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -383,20 +351,6 @@ public void showTableData() {
 		btnNovo.setBounds(487, 115, 157, 23);
 		contentPane.add(btnNovo);
 		
-		JLabel lblCodEvento = new JLabel("Cod. Evento");
-		lblCodEvento.setBounds(129, 440, 88, 14);
-		contentPane.add(lblCodEvento);
-		
-		txtcodEv = new JTextField();
-		txtcodEv.setColumns(10);
-		txtcodEv.setBounds(227, 435, 111, 20);
-		contentPane.add(txtcodEv);
-		
-		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setBorder(new TitledBorder(null, "Registar Evento", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-		lblNewLabel_1.setBounds(119, 147, 358, 321);
-		contentPane.add(lblNewLabel_1);
-		
 		JButton btnNewButton_1 = new JButton("Limpar Tabela");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -429,5 +383,19 @@ public void showTableData() {
 		separator.setForeground(new Color(0, 0, 0));
 		separator.setBounds(108, 55, 0, 549);
 		contentPane.add(separator);
+		
+		txtcodEv = new JTextField();
+		txtcodEv.setColumns(10);
+		txtcodEv.setBounds(227, 435, 115, 20);
+		contentPane.add(txtcodEv);
+		
+		JLabel lblCodEvento = new JLabel("Cod. Evento");
+		lblCodEvento.setBounds(129, 438, 88, 14);
+		contentPane.add(lblCodEvento);
+		
+		JLabel lblNewLabel_1 = new JLabel("");
+		lblNewLabel_1.setBorder(new TitledBorder(null, "Registar Evento", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		lblNewLabel_1.setBounds(119, 147, 358, 321);
+		contentPane.add(lblNewLabel_1);
 	}
 }
