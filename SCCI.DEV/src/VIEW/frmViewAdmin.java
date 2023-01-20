@@ -40,9 +40,9 @@ public class frmViewAdmin extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("Bem Vindo Caro Utilizador");
+		JLabel lblNewLabel = new JLabel("ÁREA DE GESTÃO DE UTILIZADORES DO ADMINISTRADOR");
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 16));
-		lblNewLabel.setBounds(103, 112, 236, 14);
+		lblNewLabel.setBounds(0, 110, 434, 14);
 		contentPane.add(lblNewLabel);
 	}
 
