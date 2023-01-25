@@ -48,6 +48,7 @@ public class frmViewEventos extends JFrame {
 	private JTextField txtDescr;
 	private JTable table;
 	private JTextField txtcodEv;
+	private JTextField txtMax;
 	
 	
 	
@@ -157,9 +158,9 @@ public void showTableData() {
 		txtPalestr.setBounds(227, 262, 222, 20);
 		contentPane.add(txtPalestr);
 		
-		final JSpinner txtMax = new JSpinner();
-		txtMax.setBounds(227, 299, 50, 20);
-		contentPane.add(txtMax);
+		//final JSpinner txtMax = new JSpinner();
+		//txtMax.setBounds(227, 299, 50, 20);
+		//contentPane.add(txtMax);
 		
 		txtTipo = new JTextField();
 		txtTipo.setColumns(10);
@@ -199,7 +200,7 @@ public void showTableData() {
 				txtTema.setText(tema);
 				txtLocal.setText(local);
 				txtPalestr.setText(palestr);
-				txtMax.setToolTipText(max);
+				txtMax.setText(max);
 				txtTipo.setText(tipo);
 				txtData.setText(data);
 				txtDescr.setText(descr);
@@ -240,7 +241,7 @@ public void showTableData() {
 					pst.setString(1, txtTema.getText());
 					pst.setString(2, txtLocal.getText());
 					pst.setString(3, txtPalestr.getText());
-					pst.setInt(4, txtMax.getComponentCount());
+					pst.setString(4, txtMax.getText());
 					pst.setString(5, txtTipo.getText());
 					pst.setString(6, txtData.getText());
 					pst.setString(7, txtDescr.getText());
@@ -276,7 +277,7 @@ public void showTableData() {
 					pst.setString(1, txtTema.getText());
 					pst.setString(2, txtLocal.getText());
 					pst.setString(3, txtPalestr.getText());
-					pst.setInt(4, txtMax.countComponents());
+					pst.setString(4, txtMax.getText());
 					pst.setString(5, txtTipo.getText());
 					pst.setString(6, txtData.getText());
 					pst.setString(7, txtDescr.getText());
@@ -392,6 +393,11 @@ public void showTableData() {
 		JLabel lblCodEvento = new JLabel("Cod. Evento");
 		lblCodEvento.setBounds(129, 438, 88, 14);
 		contentPane.add(lblCodEvento);
+		
+		txtMax = new JTextField();
+		txtMax.setBounds(227, 302, 44, 20);
+		contentPane.add(txtMax);
+		txtMax.setColumns(10);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setBorder(new TitledBorder(null, "Registar Evento", TitledBorder.LEADING, TitledBorder.TOP, null, null));
