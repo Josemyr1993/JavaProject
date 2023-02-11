@@ -1,1 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T13:55:14.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="bc3Ui_URpPHSy0kOxyQD" version="20.8.18" type="github"><diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">7V1Lk9o4EP41HGfLlm0eR2Yyk92aSm1qk9pNjgIJ44ptESFmIL9+JVt+AyNewWa6OGC32lJL3Wp93Rai5zxE648cL+afGKFhD1lk3XM+9BCyXWsovxRlk1IGrib4PCCaqSB8CX5RTbQ0dRUQuqwwCsZCESyqxCmLYzoVFRrmnL1W2WYsrLa6wD5tEL5Mcdik/hcQMddU27KKgj9p4M9100NPF0zw9IfP2SrW7cUspmlJhLNqNOtyjgl7LZGcx57zwBkT6VW0fqChGtZsxNLnnnaU5iJzGguTBxAlDqIzC+HBzJVduNM1vOBwpYehh/qhrOueBC9KYLHR49P/uVJS3k/Y+m4Z/Apiv+eMJ4wTyu8kTZa8pqM2TkbMU6ylgRn3kENd9ZEFC0xIWgFaqCeL2uWVr76/4klIYxzRTBzZp0SitDijCsW2VcyGMDMWCyU4VUQa1Vq1pnKgcrFK9aAG13KBp3Uuq9mDXETeoJCM8vm51L2C3GRcxcHPFf2L7GVXxGZje5p/erYN258xLi0/fqab80pg2nxAQ1KzBsPWFTE1koyOKvaCXigXgfQC41B2UJIEW0g2rO9COlNPMck1C5OZOwvkjHLu5yKSXx9seZlYOFUzzJJ3+RRXN1MWBVN9HeIJDe/zKfHAQsZlUeIt5GOCsx+547G1wT7hKAiVP/2XcoJjrMnaedqoOf+zCS17RdclkvYHHymLqOBSjdY6d3DpI5vMHev715ITHGravOT/RpqGtd/186oLByQvtA8y9UfDhoIokW5a3zIu5sxnMQ4fC2pZF3Ic+OabGvE/vOz2u1YAwct5oibbQBuYi7FaVCTt8Z8Ix+TvpIDGpCBL3q/sE443ptpq2NVO/S3Zik/pjkHSapcy+lTs4NHjqAZvrxVwGmIRvFTXwPOqdHSaSluotsLKKjaWmNzlVJpN1PPpNHlUDgzelBgWLIjFslTzZ0UoHIY3qjoM1K9hjhr/wD6N35HLd9X+UokLa8y7fpyB5uDsdgz0gkZot8axoNOwq0LuBXxFVorwMtwoLzV0zEpqaNYqAG3GUcBaeaOQ7eVgbVO8Mr5VpRLi/h58O2FkA6C3VaDXpPXJVqh8iDyGNZyiocOFbOjs9qVUxG2TEEKfN0Ift39k6GM7F4l9+qfhkC5DD8cAerjtQR7oxCh1HYg8fJDXafQwyCPWb+VotggtbgZoDg207bRG2w7gTMCZgDM7iTMBGx2JjeppYc+9ZlrYBRcMLhhcMLjg9+yCXfuqb+a8E2OePW/muhzLeJ2KXL3TFlLY7wH7Pdq9HsKqcuCqgrxrrip9APYA7MGRdfbdE0gJUoKUty0lBPBHQq2hU4VafdP3y8jyLoC1BoC1AGsB1upkEhVWipteKeo7kfpDw5Uij+bPm+sd3Hqut7KV5rjEr8kmlkFrEr9DWPxh8YfFv7NLK0gJUoKUIGW7pTxexN8VLLVfQtD0e5GwPZqGwP1MgTsyDdydi/yEaATbe5Ir2N5zo8EaOKQD3zm5o2tu78kTaXCcy+5EYpbC3ZtJHLUmk5iJC6nEpHFIJcLq1C2w330pjxfx/YV2ICXYJEh4aIwByZAzxB7I9AdryL3ILgY43DatDrIhN4o3wSMd6JGumgzJegSBc9I4BM7gyLoDCkFCANat+c2u+fbgyxxUuO1EtNPS/DvS8DsT9/sVdeSp3tmpfOm7Bn0u31uvIY7M+Ruk/D3DlH/ZCKxtRpARDzsXvHEwt+NVrdAZ1Iwr7bF+qrCvRkVurSJUrygdlkZFvTcP+5a3xZ+ppOzFn9U4j/8D</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-11T18:32:17.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="l1W4ufm-XkdCajr9Nlu1" version="20.8.18" type="github">
+  <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
+    <mxGraphModel dx="3250" dy="1152" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ed32ef02a7f4228-12" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Planilha_Venda&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_planilha&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_companhia&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;nome_planilha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_abertura&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_fecho&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;fieldname&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="-710" y="212" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-14" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Reserva&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_reserva&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_trechos&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_passageiro&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK2&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_companhia&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK3&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_planilha&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; nome_passageiro&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; qtd_passageiros&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; classe&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; nome_companhia&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; custo_total&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-224" y="163" width="180" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-12" target="DgVWUGRoaU3tuhvogsSI-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-299" y="445" as="sourcePoint" />
+            <mxPoint x="-199" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-18" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Passageiro&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_passageiro&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;nome&lt;br&gt;num_passaporte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;td&gt;num_telefone&lt;br&gt;sexo&lt;br&gt;cidade&lt;br&gt;idade&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="792" y="184" width="182" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-14" target="DgVWUGRoaU3tuhvogsSI-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="48" y="305" as="sourcePoint" />
+            <mxPoint x="203" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-23" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Companhia_Aerea&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_companhia&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;nome_companhia&lt;br&gt;país&lt;br&gt;qtd_avioes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-471" y="739" width="182" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-25" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-23" target="DgVWUGRoaU3tuhvogsSI-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-274.90999999999997" y="720.5" as="sourcePoint" />
+            <mxPoint x="-252.91" y="497.61400000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-27" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-23" target="DgVWUGRoaU3tuhvogsSI-50">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-316.90999999999997" y="770.5" as="sourcePoint" />
+            <mxPoint x="-204" y="713" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-28" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Avião&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_aviao&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_companhia&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK2&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_empresa&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;marca&lt;br&gt;modelo&lt;br&gt;qtd_assentos&lt;br&gt;tipo_aviao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-225" y="1054" width="181" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-29" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-23" target="DgVWUGRoaU3tuhvogsSI-28">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-320.90999999999997" y="806.5" as="sourcePoint" />
+            <mxPoint x="-205.91" y="672.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-33" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Voo&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_voo&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_aviao&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK2&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_passageiro&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK3&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_voo&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;data_voo&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="550" y="1113" width="176" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-34" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-33" target="DgVWUGRoaU3tuhvogsSI-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="194.08999999999997" y="542.5" as="sourcePoint" />
+            <mxPoint x="510" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-35" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-28" target="DgVWUGRoaU3tuhvogsSI-33">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="75.09" y="760.5" as="sourcePoint" />
+            <mxPoint x="175.09000000000003" y="660.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-37" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Empresa&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_empresa&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;nome_empresa&lt;br&gt;país&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-469" y="1156" width="182" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-39" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-37">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="351.0900000000006" y="958.4999999999998" as="sourcePoint" />
+            <mxPoint x="-227" y="1197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-40" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Trecho_Partida&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_trechos&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_partida&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_chegada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;aeroporto_partida&lt;br&gt;aeroporto_chegada&lt;br&gt;duracao_max_voo&lt;br&gt;duracao_min_voo&lt;br&gt;custo_partida&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="466" y="308" width="169" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-42" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Trecho_Regresso&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_trechos&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_partida&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_chegada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;aeroporto_partida&lt;br&gt;aeroporto_chegada&lt;br&gt;duracao_max_voo&lt;br&gt;duracao_min_voo&lt;br&gt;custo_regresso&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="469" y="553" width="169" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-45" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Aeroporto&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_aeroporto&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_partida&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_chegada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;aeroporto_partida&lt;br&gt;aeroporto_chegada&lt;br&gt;duracao_max_voo&lt;br&gt;duracao_min_voo&lt;br&gt;custo_regresso&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="257" y="822" width="169" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-49" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-12" target="DgVWUGRoaU3tuhvogsSI-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-554.9100000000001" y="455" as="sourcePoint" />
+            <mxPoint x="-443.91" y="505.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-50" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Rota&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PK&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_rota&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_companhia&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK2&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_aviao&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK3&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_voo&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;nome_rota&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;data_rota&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-216" y="654" width="176" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-52" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;Trechos&lt;/b&gt;&lt;/div&gt;&lt;b&gt;PK&lt;/b&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;cod_trechos&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_aeroporto&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;FK2&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;cod_rota&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_partida&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data_time_chegada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;aeroporto_partida&lt;br&gt;aeroporto_chegada&lt;br&gt;duracao_max_voo&lt;br&gt;duracao_min_voo&lt;br&gt;custo_total&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="20" y="431" width="169" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-53" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-14" target="DgVWUGRoaU3tuhvogsSI-52">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="205" y="717" as="sourcePoint" />
+            <mxPoint x="305" y="617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-54" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=1.013;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DgVWUGRoaU3tuhvogsSI-28">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-38" y="823" as="sourcePoint" />
+            <mxPoint x="171" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-55" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-50" target="DgVWUGRoaU3tuhvogsSI-52">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="204" y="766" as="sourcePoint" />
+            <mxPoint x="304" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-56" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-52" target="DgVWUGRoaU3tuhvogsSI-40">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="204" y="553" as="sourcePoint" />
+            <mxPoint x="304" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-57" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1.016;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-52" target="DgVWUGRoaU3tuhvogsSI-42">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="204" y="766" as="sourcePoint" />
+            <mxPoint x="304" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgVWUGRoaU3tuhvogsSI-60" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1.022;exitY=0.824;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DgVWUGRoaU3tuhvogsSI-52" target="DgVWUGRoaU3tuhvogsSI-45">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="204" y="766" as="sourcePoint" />
+            <mxPoint x="304" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
